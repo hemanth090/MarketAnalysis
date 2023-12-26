@@ -15,7 +15,7 @@ def calculate_returns(data):
 
 # Streamlit app layout
 def main():
-    st.title("Lathish mamu black ticket sales")
+    st.title("Surya - Stock Analysis")
 
     # Input for ticker symbol
     ticker_symbol = st.text_input("Enter the ticker symbol (e.g., AAPL for Apple):", "AAPL")
