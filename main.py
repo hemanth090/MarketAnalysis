@@ -7,12 +7,6 @@ def fetch_stock_data(ticker, start_date, end_date):
     data = yf.download(ticker, start=start_date, end=end_date)["Close"]
     return data
 
-# Function to calculate total return over the period
-def calculate_returns(data):
-    # Calculate total return from start to end of the period
-    total_return = (data.iloc[-1] / data.iloc[0] - 1)
-    return total_return
-
 # Streamlit app layout
 def main():
     st.title("Stock Analysis")
@@ -31,11 +25,9 @@ def main():
                 # Fetch data for the selected date range
                 data_custom_range = fetch_stock_data(ticker_symbol, start_date, end_date)
 
-                # Display the data and calculate returns
+                # Display the data
                 st.write(f"Stock Data for {ticker_symbol} - Custom Date Range:")
                 st.dataframe(data_custom_range)
-                annual_return_custom = calculate_returns(data_custom_range)
-                st.write(f"Annual Return based on custom date range: {annual_return_custom:.2%}")
 
             except Exception as e:
                 st.error(f"Error: {e}. Please check the provided ticker symbol.")
