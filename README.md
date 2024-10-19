@@ -19,7 +19,7 @@ This project fetches and analyzes stock market data, providing insights into sto
 ## Installation Instructions
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/stock-market-analysis.git
+   git clone https://github.com/hemanth090/stock-market-analysis.git
    ```
 2. Navigate to the project directory:
    ```bash
@@ -58,8 +58,8 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Contact Details
 For any inquiries, please reach out to:
-- Name: Your Name
-- Email: your.email@example.com
+- Name: Hemanth
+- Email: naveenhemanth4@gmail.com
 
 ## Troubleshooting
 - If you encounter issues while running the application, ensure all dependencies are installed and the correct Python version is being used.
@@ -75,8 +75,8 @@ A: Yes, but please adhere to the licensing terms.
 - **Version 1.0.0** - Initial release
 
 ## Badges
-![GitHub Repo stars](https://img.shields.io/github/stars/yourusername/stock-market-analysis?style=social)
-![GitHub license](https://img.shields.io/github/license/yourusername/stock-market-analysis)
+![GitHub Repo stars](https://img.shields.io/github/stars/hemanth090/stock-market-analysis?style=social)
+![GitHub license](https://img.shields.io/github/license/hemanth090/stock-market-analysis)
 
 ## Code Style Standards
 - Follow PEP 8 guidelines for Python code.
