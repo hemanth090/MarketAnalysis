@@ -83,10 +83,6 @@ A: Yes, but please adhere to the licensing terms.
 ## Changelog
 - **Version 1.0.0** - Initial release
 
-## Badges
-![GitHub Repo stars](https://img.shields.io/github/stars/hemanth090/stock-market-analysis?style=social)
-![GitHub license](https://img.shields.io/github/license/hemanth090/stock-market-analysis)
-
 ## Code Style Standards
 - Follow PEP 8 guidelines for Python code.
 - Ensure proper comments and documentation are provided for all functions and classes.
