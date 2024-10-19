@@ -17,7 +17,7 @@ This project is a web-based application that provides stock market analysis, all
 
 ## Demo
 
-To see the live version of the app, visit [Streamlit Cloud]([#](https://marketanalysis.streamlit.app/)
+To see the live version of the app, visit [Streamlit Cloud]([https://marketanalysis.streamlit.app/]
 ## Installation Guide
 
 Follow the steps below to set up the project locally.
