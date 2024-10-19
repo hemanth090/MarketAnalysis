@@ -30,3 +30,11 @@ Start by cloning the repository to your local machine:
 ```bash
 git clone https://github.com/yourusername/stock-market-analysis.git
 cd stock-market-analysis
+
+### 2. Set Up a Virtual Environment (Optional but Recommended)
+
+It is recommended to create a virtual environment to manage dependencies separately from your system environment.
+
+```bash
+python -m venv env
+
