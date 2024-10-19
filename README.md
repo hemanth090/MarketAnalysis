@@ -19,7 +19,7 @@ This project fetches and analyzes stock market data, providing insights into sto
 ## Installation Instructions
 1. Clone the repository:
    ```bash
-   git clone https://github.com/hemanth090/MarketAnalysis
+   git clone https://github.com/hemanth090/MarketAnalysis.git
    ```
 2. Navigate to the project directory:
    ```bash
