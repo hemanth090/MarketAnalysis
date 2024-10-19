@@ -21,20 +21,15 @@ To see the live version of the app, visit [Streamlit Cloud](https://marketanalys
 
 ## Installation Guide
 
-Follow the steps below to set up the project locally.
+Follow the steps below to set up the project locally:
 
-### 1. Clone the Repository
+### 1. Clone the Repository and Install Dependencies
 
-Start by cloning the repository to your local machine:
-
-```bash
-git clone https://github.com/yourusername/stock-market-analysis.git
-cd stock-market-analysis
-
-### 2. Set Up a Virtual Environment (Optional but Recommended)
-
-It is recommended to create a virtual environment to manage dependencies separately from your system environment.
+Run the following commands in your terminal:
 
 ```bash
-python -m venv env
-
+git clone https://github.com/yourusername/stock-market-analysis.git && \
+cd stock-market-analysis && \
+python -m venv env && \
+source env/bin/activate  # On Windows use: .\env\Scripts\activate && \
+pip install -r requirements.txt
