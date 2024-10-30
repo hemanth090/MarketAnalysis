@@ -54,7 +54,6 @@ Visit `http://localhost:8501` in your web browser to access the application.
 5. Open a pull request.
 
 ## License
-This project is licensed under the MIT License. See the full text below:
 
 MIT License
 
