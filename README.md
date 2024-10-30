@@ -1,87 +1,82 @@
+# Stock Analysis App
 
-# Stock Market Analysis Project
+## Overview
 
-## Description
-This project fetches and analyzes stock market data, providing insights into stock performance and trends.
+**Stock Analysis App** is a Streamlit application designed to fetch and analyze stock prices using Yahoo Finance data. The application stores the fetched data in a Neo4j database and visualizes it using Altair charts, helping users track stock performance over time.
 
-## Table of Contents
-- [Installation Instructions](#installation-instructions)
-- [Usage Examples](#usage-examples)
-- [Contribution Guidelines](#contribution-guidelines)
-- [License](#license)
-- [Contact Details](#contact-details)
-- [Troubleshooting](#troubleshooting)
-- [FAQs](#faqs)
-- [Changelog](#changelog)
-- [Badges](#badges)
-- [Code Style Standards](#code-style-standards)
+## Features
 
-## Installation Instructions
-1. Clone the repository:
+- **Stock Data Fetching**: Get historical stock prices by entering the ticker symbol.
+- **Data Visualization**: Interactive line chart displaying stock price trends over a specified date range.
+- **Neo4j Integration**: Store fetched stock data in a Neo4j database for further analysis.
+- **Downloadable Data**: Option to download the fetched stock prices as a CSV file.
+
+## Prerequisites
+
+- **Python** 3.6 or higher
+- **Required Packages**:
+  - `streamlit`
+  - `yfinance`
+  - `altair`
+  - `pandas`
+  - `neo4j`
+
+## Installation
+
+1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/hemanth090/MarketAnalysis.git
+   git clone https://github.com/yourusername/Stock-Analysis-App.git
+   cd Stock-Analysis-App
    ```
-2. Navigate to the project directory:
-   ```bash
-   cd MarketAnalysis
-   ```
-3. Install the required packages:
+
+2. **Install Dependencies**:
    ```bash
    pip install -r requirements.txt
    ```
 
-## Usage Examples
-To run the application, execute the following command:
-```bash
-streamlit run app.py
-```
-Visit `http://localhost:8501` in your web browser to access the application.
+3. **Configure Neo4j Connection**:
+   - Ensure you have a Neo4j database set up and replace the connection details in the code:
+     ```python
+     NEO4J_URI = "your_neo4j_uri"
+     NEO4J_USERNAME = "your_username"
+     NEO4J_PASSWORD = "your_password"
+     ```
 
-## Contribution Guidelines
+## Usage
+
+1. **Start the Application**:
+   ```bash
+   streamlit run app.py
+   ```
+
+2. **Access the App**: Open your browser and go to [http://localhost:8501](http://localhost:8501).
+
+3. **Analyze Stocks**:
+   - Enter the ticker symbol (e.g., AAPL for Apple).
+   - Select a date range and click "Fetch and Analyze Data" to view the stock prices and chart.
+
+## Code Structure
+
+- **`app.py`**: Main Streamlit application file.
+- **`requirements.txt`**: Lists all package dependencies.
+
+## Contributing
+
+Contributions are welcome! To contribute:
+
 1. Fork the repository.
-2. Create a new branch:
-   ```bash
-   git checkout -b feature/YourFeature
-   ```
-3. Commit your changes:
-   ```bash
-   git commit -m "Add your message here"
-   ```
-4. Push to the branch:
-   ```bash
-   git push origin feature/YourFeature
-   ```
-5. Open a pull request.
+2. Create a new branch for your feature or bug fix.
+3. Make and commit your changes.
+4. Push to your fork and submit a pull request.
 
 ## License
 
-MIT License
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+## Contact
 
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+For questions, suggestions, or collaboration inquiries, please reach out to:
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-
-
-## Contact Details
-For any inquiries, please reach out to:
-- Name: Hemanth
-- Email: naveenhemanth4@gmail.com
-
-## Troubleshooting
-- If you encounter issues while running the application, ensure all dependencies are installed and the correct Python version is being used.
-
-## FAQs
-**Q: What data sources are used?**  
-A: The project uses Alpha Vantage API to fetch stock data.
-
-**Q: Can I use this project for commercial purposes?**  
-A: Yes, but please adhere to the licensing terms.
-
-## Changelog
-- **Version 1.0.0** - Initial release
-
-## Code Style Standards
-- Follow PEP 8 guidelines for Python code.
-- Ensure proper comments and documentation are provided for all functions and classes.
+- **Email**: naveenhemanth4@gmail.com
+- **GitHub**: [hemanth090](https://github.com/hemanth090)
+- **LinkedIn**: [hemanthkokkonda](https://www.linkedin.com/in/hemanthkokkonda/)
